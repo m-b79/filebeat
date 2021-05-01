@@ -175,9 +175,9 @@ setup.kibana:
 # Configure what output to use when sending the data collected by the beat.
 
 # ---------------------------- Elasticsearch Output ----------------------------
-output.elasticsearch:
+#output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["192.168.0.1:9200"]
+  #hosts: ["192.168.0.1:9200"]
 
   # Protocol - either `http` (default) or `https`.
   #protocol: "https"
@@ -192,9 +192,9 @@ output.elasticsearch:
  #setup.ilm.pattern: "{now/d}-000001"
 
 # ------------------------------ Logstash Output -------------------------------
-#output.logstash:
+output.logstash:
   # The Logstash hosts
-  #hosts: ["192.168.0.1:5044"]
+  hosts: ["192.168.0.1:5044"]
   # Optional SSL. By default is off.
   # List of root certificates for HTTPS server verifications
   #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
