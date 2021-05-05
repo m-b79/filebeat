@@ -1,4 +1,4 @@
-#!usr/bin/bash/
+#!/bin/sh/
 #######################################
 # Bash script to install apps on a new system (Ubuntu)
 # Written by @AamnahAkram from http://aamnah.com
